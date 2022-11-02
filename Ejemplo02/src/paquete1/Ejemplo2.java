@@ -17,8 +17,8 @@ public class Ejemplo2 {
     public static void main(String[] args) {
         // Ingreso de valores por teclado
         Scanner entrada = new Scanner(System.in);
-        entrada.useLocale(Locale.US); 
-        
+        entrada.useLocale(Locale.US); // para imgresar los decimales con punto
+                                      // no con coma
         // declarar las variables
         String nombreAsignatura1;
         String nombreAsignatura2;
